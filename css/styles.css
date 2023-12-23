@@ -51,7 +51,7 @@ h2 {
 }
 
 .span {
-    color: #2e2f42 ;
+    color:#2E2F42
 }
 
 
@@ -73,13 +73,16 @@ h2 {
     text-decoration: underline;
 }
 
+.address {
+    font-style: normal;
+}
+
 .header-address-link {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 
 .header-address-link:hover,
