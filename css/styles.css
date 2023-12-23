@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #FFF;;
 }
 
@@ -40,8 +41,8 @@ h2 {
 /** --------------HEADER----------------- */
 
 .header-logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5; 
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -50,7 +51,7 @@ h2 {
 }
 
 .header-logo span {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 
@@ -62,7 +63,8 @@ h2 {
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: #404BBF;
 }
 
@@ -77,6 +79,7 @@ h2 {
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .header-address-link:hover,
@@ -106,9 +109,14 @@ h2 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     font-family: inherit; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     background:  #404BBF;
 }
 
@@ -143,17 +151,17 @@ h2 {
 }
 
 .footer-logo {
-    color: #F4F4FD;
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.17px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-logo span {
-    color: #4D5AE5;
+    color: #F4F4FD; 
 }
 
