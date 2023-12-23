@@ -50,8 +50,9 @@ h2 {
     text-transform: uppercase;
 }
 
-.span {
-    color:#2E2F42
+
+.header-span {
+    color:#2E2F42;
 }
 
 
@@ -73,7 +74,7 @@ h2 {
     text-decoration: underline;
 }
 
-.address {
+.header-address {
     font-style: normal;
 }
 
